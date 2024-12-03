@@ -1,0 +1,667 @@
+[
+  {
+    "ID": 1,
+    "ECOLE": "IEM Falala HEROUVILLE ST CLAIR",
+    "NIVEAU": "C2 et C3"
+  },
+  {
+    "ID": 2,
+    "ECOLE": "EREA HEROUVILLE ST CLAIR",
+    "NIVEAU": "ULIS lycée"
+  },
+  {
+    "ID": 3,
+    "ECOLE": "Cig Maupas VIRE NORMANDIE",
+    "NIVEAU": "6ème a 3ème SEGPA"
+  },
+  {
+    "ID": 4,
+    "ECOLE": "EPPU Trévières",
+    "NIVEAU": "CE2"
+  },
+  {
+    "ID": 5,
+    "ECOLE": "EPPU SOMMERVIEU",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 6,
+    "ECOLE": "EPPU Louise Laurent BAYEUX",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 7,
+    "ECOLE": "EPPU BALLEROY SUR DROME",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 8,
+    "ECOLE": "EPPU Les Aulnes SAINT PAUL DU VERNAY",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 10,
+    "ECOLE": "EPPU SAINT PAUL DU VERNAY",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 11,
+    "ECOLE": "EPPU Les Aulnes SAINT PAUL DU VERNAY",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 12,
+    "ECOLE": "EPPU Simone Veil IFS",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 13,
+    "ECOLE": "EPPU Lechatelier CAEN",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 14,
+    "ECOLE": "EPPU Lechatelier CAEN",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 15,
+    "ECOLE": "EPPU Simone Veil IFS",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 16,
+    "ECOLE": "EPPU Victor Lesage CAEN",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 17,
+    "ECOLE": "EPPU FRENOUVILLE",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 18,
+    "ECOLE": "EPPU Pigacière CAEN",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 19,
+    "ECOLE": "EPPU Lechatelier CAEN",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 20,
+    "ECOLE": "EPPU Lechatelier CAEN",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 21,
+    "ECOLE": "EPPU Vieira da Silva CAEN",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 22,
+    "ECOLE": "EPPU Millepertuis CAEN",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 23,
+    "ECOLE": "EPPU VIEIRA DA SILVA CAEN",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 24,
+    "ECOLE": "EPPU Puits Picard CAEN",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 25,
+    "ECOLE": "EPPU Millepertuis CAEN",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 26,
+    "ECOLE": "EPPU Lyautey CAEN",
+    "NIVEAU": "MS"
+  },
+  {
+    "ID": 27,
+    "ECOLE": "EPPU ROTS",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 28,
+    "ECOLE": "EPPU Reine Mathilde CAEN",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 29,
+    "ECOLE": "EPPU Bretteville-Orgueilleuse THUE ET MUE",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 30,
+    "ECOLE": "EPPU La Vallée CORMELLES LE ROYAL",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 32,
+    "ECOLE": "EPPU Bretteville-Orgueilleuse THUE ET MUE",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 33,
+    "ECOLE": "EPPU Reine Mathilde CAEN",
+    "NIVEAU": "CE2 OU CE2 CM1"
+  },
+  {
+    "ID": 34,
+    "ECOLE": "EPPU Reine Mathilde CAEN",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 35,
+    "ECOLE": "EPPU Bretteville-Orgueilleuse THUE ET MUE",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 36,
+    "ECOLE": "EPPU Jean Moulin CAEN",
+    "NIVEAU": "CP CE1"
+  },
+  {
+    "ID": 37,
+    "ECOLE": "EPPU ST MANVIEU NORREY",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 38,
+    "ECOLE": "EPPU ST MANVIEU NORREY",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 39,
+    "ECOLE": "EPPU Reine Mathilde CAEN",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 40,
+    "ECOLE": "EPPU Reine Mathilde CAEN",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 41,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "PS-MS-GS"
+  },
+  {
+    "ID": 42,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "PS-MS-GS"
+  },
+  {
+    "ID": 43,
+    "ECOLE": "Authie sud",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 44,
+    "ECOLE": "Pierre RASSE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 45,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 46,
+    "ECOLE": "Authie sud",
+    "NIVEAU": "ULIS"
+  },
+  {
+    "ID": 47,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 48,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 49,
+    "ECOLE": "Authie sud",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 50,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "PS-MS-GS"
+  },
+  {
+    "ID": 51,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 52,
+    "ECOLE": "Pierre RASSE",
+    "NIVEAU": "MS-MS-GS"
+  },
+  {
+    "ID": 53,
+    "ECOLE": "Pierre RASSE",
+    "NIVEAU": "CM1"
+  },
+  {
+    "ID": 54,
+    "ECOLE": "Paul GERNEZ",
+    "NIVEAU": "PS-TPS"
+  },
+  {
+    "ID": 55,
+    "ECOLE": "Paul GERNEZ",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 56,
+    "ECOLE": "Pierre RASSE",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 57,
+    "ECOLE": "Paul GERNEZ",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 58,
+    "ECOLE": "Michel PONDAVEN",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 59,
+    "ECOLE": "EPPU Pierre et Marie Curie NEZOU",
+    "NIVEAU": "CE2"
+  },
+  {
+    "ID": 60,
+    "ECOLE": "EPPU Gabriel GOURAUD VALLEES DU HAUGE",
+    "NIVEAU": "GS CP"
+  },
+  {
+    "ID": 61,
+    "ECOLE": "EPPU Gabriel GOURAUD VALLEES DU HAUGE",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 62,
+    "ECOLE": "EPPU Pierre et Marie Curie NEZOU",
+    "NIVEAU": "PS MS GS"
+  },
+  {
+    "ID": 63,
+    "ECOLE": "EPPU VIEIRA DA SILVA VALLEES DU HAUGE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 64,
+    "ECOLE": "EPPU ETOUVILLE",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 65,
+    "ECOLE": "EPPU TROARN",
+    "NIVEAU": "GS CP MS"
+  },
+  {
+    "ID": 66,
+    "ECOLE": "EPPU LUC SUR MER",
+    "NIVEAU": "TPS/PS/MS"
+  },
+  {
+    "ID": 67,
+    "ECOLE": "EPPU Dian Fossey DOUVRES LA DELIVRANDE",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 68,
+    "ECOLE": "EPPU Coulombs MOULIN EN BESSIN",
+    "NIVEAU": "PS/MS"
+  },
+  {
+    "ID": 69,
+    "ECOLE": "EPPU BERNIERES SUR MER",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 70,
+    "ECOLE": "EPPU CREULLY",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 71,
+    "ECOLE": "EPPU COURSEULLES SUR MER",
+    "NIVEAU": "CP CE1"
+  },
+  {
+    "ID": 72,
+    "ECOLE": "EPPU QUISTREHAM",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 73,
+    "ECOLE": "EPPU Coulombs MOULIN EN BESSIN",
+    "NIVEAU": "CE1 CE2"
+  },
+  {
+    "ID": 74,
+    "ECOLE": "EPPU GRAYE SUR MER",
+    "NIVEAU": "CE1 CE2"
+  },
+  {
+    "ID": 75,
+    "ECOLE": "EPPU Colbert BLAINVILLE SUR ORNE",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 76,
+    "ECOLE": "EPPU COURSEULLES SUR MER",
+    "NIVEAU": "PS"
+  },
+  {
+    "ID": 77,
+    "ECOLE": "EPPU COURSEULLES SUR MER",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 78,
+    "ECOLE": "EPPU Dian Fossey DOUVRES LA DELIVRANDE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 79,
+    "ECOLE": "EPPU EVRECY",
+    "NIVEAU": "CE1 CE2"
+  },
+  {
+    "ID": 80,
+    "ECOLE": "EPPU ANCTOVILLE",
+    "NIVEAU": "CP CE1"
+  },
+  {
+    "ID": 81,
+    "ECOLE": "EPPU FONTAINE ETOUPEFOUR",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 82,
+    "ECOLE": "EPPU EVRECY",
+    "NIVEAU": "CM1"
+  },
+  {
+    "ID": 83,
+    "ECOLE": "EPPU AMAYE SUR ORNE",
+    "NIVEAU": "GS CP"
+  },
+  {
+    "ID": 84,
+    "ECOLE": "EPPU AMAYE SUR ORNE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 86,
+    "ECOLE": "EPPU CAUMONT SUR AURE",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 87,
+    "ECOLE": "EPPU FONTAINE ETOUPEFOUR",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 88,
+    "ECOLE": "Groupe Scolaire Vincent Auriol",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 89,
+    "ECOLE": "EPPU TOURVILLE SUR ODON",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 90,
+    "ECOLE": "EPPU AMAYE SUR ORNE",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 91,
+    "ECOLE": "EPPU AURSEULLES",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 94,
+    "ECOLE": "EPPU FRESNEY LE PUCEUX",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 95,
+    "ECOLE": "EPPU GOUVIX",
+    "NIVEAU": "CP ou GS CP"
+  },
+  {
+    "ID": 96,
+    "ECOLE": "EPPU SAITN MARTIN DE FONTENAY",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 97,
+    "ECOLE": "EPPU MOULT-CHICHEBOVILLE",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 99,
+    "ECOLE": "EPPU MOULT-CHICHEBOVILLE",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 100,
+    "ECOLE": "EPPU MOULT",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 101,
+    "ECOLE": "EPPU ARGENCES Paul Derrien",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 102,
+    "ECOLE": "EPPU EPANEY",
+    "NIVEAU": "CP CE1"
+  },
+  {
+    "ID": 103,
+    "ECOLE": "EPPU SAITN LAURENT DE CONDEL",
+    "NIVEAU": "PS ou PS MS"
+  },
+  {
+    "ID": 104,
+    "ECOLE": "EPPU MARTIGNY SUR L'ANTE",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 105,
+    "ECOLE": "EEPU Bisson SAINT PIERRE EN AUGE",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 106,
+    "ECOLE": "EMPU Bisson SAINT PIERRE EN AUGE",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 107,
+    "ECOLE": "EPPU La Crosse PALAISE",
+    "NIVEAU": "CM1 CM2"
+  },
+  {
+    "ID": 108,
+    "ECOLE": "EPPU Langevin POTIGNY",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 110,
+    "ECOLE": "EPPU Paul Langevin MONDEVILLE",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 112,
+    "ECOLE": "EPPU Boisard HEROUVILLE",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 113,
+    "ECOLE": "EMPU Henri Sellier COLOMBELLES",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 114,
+    "ECOLE": "EPPU Freinet HEROUVILLE",
+    "NIVEAU": "CYCLE 1 Multiâge"
+  },
+  {
+    "ID": 115,
+    "ECOLE": "EPPU Gringoire HEROUVILLE",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 116,
+    "ECOLE": "EPPU Poppa de Valois HEROUVILLE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 117,
+    "ECOLE": "EPPU DEMOUVILLE",
+    "NIVEAU": "PS"
+  },
+  {
+    "ID": 118,
+    "ECOLE": "EPPU Poppa de Valois HEROUVILLE",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 119,
+    "ECOLE": "EPPU Freinet HEROUVILLE",
+    "NIVEAU": "CM1-CM2"
+  },
+  {
+    "ID": 120,
+    "ECOLE": "EPPU Poppa de Valois HEROUVILLE",
+    "NIVEAU": "GS"
+  },
+  {
+    "ID": 121,
+    "ECOLE": "EPPU Freinet HEROUVILLE",
+    "NIVEAU": "CP CE1 CE2"
+  },
+  {
+    "ID": 122,
+    "ECOLE": "EPPU Poppa de Valois HEROUVILLE",
+    "NIVEAU": "CE2"
+  },
+  {
+    "ID": 123,
+    "ECOLE": "EPPU Poppa de Valois HEROUVILLE",
+    "NIVEAU": "CE2"
+  },
+  {
+    "ID": 124,
+    "ECOLE": "EPPU Freinet HEROUVILLE",
+    "NIVEAU": "CYCLE 1 Multiâge"
+  },
+  {
+    "ID": 125,
+    "ECOLE": "EPPU Simone Veil HEROUVILLE",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 126,
+    "ECOLE": "EMPU Les Tilleuls MONDEVILLE",
+    "NIVEAU": "PS MS"
+  },
+  {
+    "ID": 127,
+    "ECOLE": "EPPU VILLERS SUR MER",
+    "NIVEAU": "PS GS"
+  },
+  {
+    "ID": 128,
+    "ECOLE": "EPPU René Coty MOYAUX",
+    "NIVEAU": "CE2 CM1"
+  },
+  {
+    "ID": 129,
+    "ECOLE": "EPPU Henri Caubrière HONFLEUR",
+    "NIVEAU": "ULIS"
+  },
+  {
+    "ID": 130,
+    "ECOLE": "EPPU André Malraux TOUQUES",
+    "NIVEAU": "MS GS"
+  },
+  {
+    "ID": 131,
+    "ECOLE": "EPPU VINCENT AURIOL-LA BOISSIERE",
+    "NIVEAU": "CM1-CM2"
+  },
+  {
+    "ID": 132,
+    "ECOLE": "EPPU Jean Macé LISIEUX",
+    "NIVEAU": "CP"
+  },
+  {
+    "ID": 133,
+    "ECOLE": "EPPU NOTRE DAME DE COURSON",
+    "NIVEAU": "CE2 CM1 CM2"
+  },
+  {
+    "ID": 134,
+    "ECOLE": "EPPU Reginald Trevett",
+    "NIVEAU": "CE1"
+  },
+  {
+    "ID": 135,
+    "ECOLE": "EPPU école des 2 Villages Campagnolles",
+    "NIVEAU": "CM1/CM2"
+  },
+  {
+    "ID": 136,
+    "ECOLE": "EPPU Aunay sur Odon LES MONTS",
+    "NIVEAU": "CM2"
+  },
+  {
+    "ID": 137,
+    "ECOLE": "EPPU Jacques Prévert MAISONCELLE",
+    "NIVEAU": "CE2/CM1"
+  },
+  {
+    "ID": 139,
+    "ECOLE": "EPPU Jacques Prévert MAISONCELLE",
+    "NIVEAU": "CM1/CM2"
+  },
+  {
+    "ID": 140,
+    "ECOLE": "EPPU Maurice Carême Le Plessis Grimoult",
+    "NIVEAU": "CE1/CE2"
+  },
+  {
+    "ID": 141,
+    "ECOLE": "EPPU Marcel Pagnol St. Jean le Blanc",
+    "NIVEAU": "TPS/CE1/CE2"
+  },
+  {
+    "ID": 142,
+    "ECOLE": "EPPU la Fontaine au Bey La Graverie",
+    "NIVEAU": "SCM1/CM2"
+  }
+]
