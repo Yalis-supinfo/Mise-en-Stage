@@ -10,18 +10,37 @@ const groupes = {
 
 const Main = () => {
     const [pref, setPref] = useState([]);
-    const [groupe, setGroupe] = useState(null);
+    const [groupe, setGroupe] = useState(groupes.DEBUT);
     const [classes, setClasses] = useState([]);
     const [selected, setSelected] = useState([]);
     const [groupeForm, setGroupeForm] = useState({
         nombre: "",
         groupe: groupes.DEBUT
     });
+    const [showPrefList, setShowPrefList] = useState(false);
 
     const refInputNombre = useRef(null);
 
     // rechargement de la page on prend les préférences dans le localStorage
     useEffect(() => {
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "d" || e.key === "D") {
+                setGroupeForm({
+                    nombre: parseInt(refInputNombre.current.value),
+                    groupe: groupes.DEBUT
+                });
+                refInputNombre.current.focus();
+            }
+
+            if (e.key === "f" || e.key === "F") {
+                setGroupeForm({
+                    nombre: parseInt(refInputNombre.current.value),
+                    groupe: groupes.FIN
+                });
+                refInputNombre.current.focus();
+            }
+        });
+
         const storedPref = localStorage.getItem('pref');
         if (storedPref) {
             setPref(JSON.parse(storedPref));
@@ -52,7 +71,9 @@ const Main = () => {
             return classesData.filter(classe => classe.ID === ID);
         }).flat();
 
-        setClasses(newClasses);
+        const classesNoPref = classesData.filter(classe => !pref.includes(classe.ID));
+
+        setClasses([...newClasses, ...classesNoPref]);
     }, [pref])
 
 
@@ -152,10 +173,40 @@ const Main = () => {
         return listSelected.length === 1 && (listSelected[0].binome === 2 || groupe !== listSelected[0].groupe)
     }
 
+    const handleAddPrefList = () => {
+        try {
+            const prefList = document.querySelector('.setPrefList input').value;
+            const json = JSON.parse(prefList);
+            if (json.length === 0) {
+                throw new Error("La liste est vide");
+            }
+            json.forEach(element => {
+                if (element.constructor !== Number) {
+                    throw new Error("La liste doit contenir des nombres");
+                }
+            });
+
+            setPref(JSON.parse(prefList));
+            setShowPrefList(false);
+        } catch (error) {
+            alert("La liste n'est pas valide");
+        }
+    }
+
     return (
         <div className="main">
+            {showPrefList && (
+                <div className="setPrefList">
+                    <div className="bg" onClick={() => {setShowPrefList(false)}}></div>
+                    <form className="content">
+                        <p>Ajoute ta liste</p>
+                        <input type="text" />
+                        <button onClick={handleAddPrefList}>Valider</button>
+                    </form>
+                </div>
+            )}
             <header>
-                <div>
+                <div className="header-container">
                     <h2>Tu es :</h2>
                     <div className="inputGroupRadio">
                         <label htmlFor="debut">Début</label>
@@ -163,6 +214,10 @@ const Main = () => {
                         <label htmlFor="fin">Fin</label>
                         <input type="radio" name="fin" radioGroup="groupe" id="fin" checked={groupe === groupes.FIN} onChange={handleGroupe} />
                     </div>
+
+                    <button onClick={()=>{setShowPrefList(!showPrefList)}}>
+                        liste de préférences
+                    </button>
                 </div>
 
                 <button onClick={
@@ -179,7 +234,7 @@ const Main = () => {
                 <table>
                     <thead>
                         <tr>
-                            <th colSpan={5}><h1>Mes Préférences</h1></th>
+                            <th colSpan={5}><h1>Mes Préférences {JSON.stringify(groupeForm)}</h1></th>
                         </tr>
                         <tr>
                             <th scope="col"></th>
@@ -196,7 +251,7 @@ const Main = () => {
                 </table>
 
                 <div className="selected">
-                    <div className="inputGroupSelected">
+                    <form className="inputGroupSelected">
                         <label htmlFor="nombre">Nombre</label>
                         <input type="number" name="nombre" id="nombre" value={groupeForm.nombre} onChange={handleSelectedForm} ref={refInputNombre} />
                         
@@ -209,13 +264,14 @@ const Main = () => {
                         </div>
 
                         <button onClick={handleSelected} disabled={disableSelected()}>Ajouter</button>
-                    </div>
+                    </form>
 
                     <ul>
                         {selected.map((select, index) => (
-                            <li key={index}>
+                            <li key={index} className={`select ${select.binome === 2 ? "hidden" : ""}`}>
                                 <span>{select.nombre}</span>
                                 <span>{select.groupe}</span>
+                                <span>{select.binome}/2</span>
                             </li>
                         ))}
                     </ul>
