@@ -9,10 +9,10 @@ const groupes = {
 }
 
 const Main = () => {
-    const [pref, setPref] = useState([]);
-    const [groupe, setGroupe] = useState(groupes.DEBUT);
+    const [pref, setPref] = useState(localStorage.getItem('pref') ? JSON.parse(localStorage.getItem('pref')) : []);
+    const [groupe, setGroupe] = useState(localStorage.getItem('groupe') ? groupes[localStorage.getItem('groupe')] : groupes.DEBUT);
     const [classes, setClasses] = useState([]);
-    const [selected, setSelected] = useState([]);
+    const [selected, setSelected] = useState(localStorage.getItem('selected') ? JSON.parse(localStorage.getItem('selected')) : []);
     const [groupeForm, setGroupeForm] = useState({
         nombre: "",
         groupe: groupes.DEBUT
@@ -40,16 +40,6 @@ const Main = () => {
                 refInputNombre.current.focus();
             }
         });
-
-        const storedPref = localStorage.getItem('pref');
-        if (storedPref) {
-            setPref(JSON.parse(storedPref));
-        }
-
-        const storedGroupe = localStorage.getItem('groupe');
-        if (storedGroupe) {
-            setGroupe(groupes[storedGroupe]);
-        }
     }, []);
 
 
@@ -148,7 +138,6 @@ const Main = () => {
             nombre: "",
             groupe: groupeForm.groupe
         });
-
         refInputNombre.current.focus();
     }
 
@@ -214,19 +203,10 @@ const Main = () => {
                         <label htmlFor="fin">Fin</label>
                         <input type="radio" name="fin" radioGroup="groupe" id="fin" checked={groupe === groupes.FIN} onChange={handleGroupe} />
                     </div>
-
-                    <button onClick={()=>{setShowPrefList(!showPrefList)}}>
-                        liste de préférences
-                    </button>
                 </div>
 
-                <button onClick={
-                    () => {
-                        setPref([]);
-                        setSelected([]);
-                    }
-                }>
-                    Tout effacer
+                <button onClick={()=>{setShowPrefList(!showPrefList)}}>
+                    liste de préférences
                 </button>
             </header>
 
@@ -234,7 +214,7 @@ const Main = () => {
                 <table>
                     <thead>
                         <tr>
-                            <th colSpan={5}><h1>Mes Préférences {JSON.stringify(groupeForm)}</h1></th>
+                            <th colSpan={5}><h1>Mes Préférences</h1></th>
                         </tr>
                         <tr>
                             <th scope="col"></th>
@@ -275,6 +255,9 @@ const Main = () => {
                             </li>
                         ))}
                     </ul>
+                    <button className="delete" onClick={() => {setSelected([])}}>
+                        effacer tous les nombres
+                    </button>
                 </div>
             </main>
         </div>
