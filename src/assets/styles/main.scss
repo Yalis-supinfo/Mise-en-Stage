@@ -1,7 +1,29 @@
+
+
+:root {
+    --bg-color: $bg-color;
+    --text-color: $text-color;
+    --input-checked-bg-color: $input-checked-bg-color;
+    --button-bg-color: $button-bg-color;
+    --button-hover-bg-color: $button-hover-bg-color;
+    --input-bg: $input-bg;
+    --select-bg: $select-bg;
+    --select-bg-hover: $select-bg-hover;
+}
+$bg-color: #333;
+$text-color: #fff;
+$input-checked-bg-color: #444;
+$button-bg-color: #444;
+$button-hover-bg-color: #555;
+$input-bg: #444;
+$select-bg: #444;
+$select-bg-hover: #3d3d3d;
+
+
 .main {
     position: relative;
-    background-color: #333;
-    color: #fff;
+    background-color: $bg-color;
+    color: $text-color;
     min-height: 100vh;
     width: 100%;
 
@@ -13,7 +35,7 @@
         align-items: center;
         padding: 12px;
         width: 100%;
-        background-color: #333;
+        background-color: $bg-color;
         z-index: 1;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 
@@ -34,7 +56,7 @@
                     cursor: pointer;
         
                     &:has(+ input:checked) {
-                        background-color: #444;
+                        background-color: $input-checked-bg-color;
                     }
                 }
                 input {
@@ -48,13 +70,13 @@
             padding: 12px;
             border-radius: 8px;
             cursor: pointer;
-            background-color: #444;
-            color: #fff;
+            background-color: $button-bg-color;
+            color: $text-color;
             font-family: 'Arial', sans-serif;
             transition: background-color .3s;
 
             &:hover {
-                background-color: #555;
+                background-color: $button-hover-bg-color;
             }
         }
     }
@@ -71,7 +93,7 @@
             border-spacing: 0; 
 
             thead {
-                color: #fff;
+                color: $text-color;
                 text-align: left;
                 padding: 12px 0;
 
@@ -106,10 +128,10 @@
                 font-family: 'Arial', sans-serif;
 
                 input[type="number"] {
-                    background-color: #444;
+                    background-color: $input-bg;
                     padding: 8px 12px;
                     margin: 6px 0;
-                    color: #fff;
+                    color: $text-color;
                     border: none;
                     border-radius: 8px;
                     outline: none;
@@ -123,7 +145,7 @@
                         cursor: pointer;
             
                         &:has(+ input:checked) {
-                            background-color: #444;
+                            background-color: $input-checked-bg-color;
                         }
                     }
                     input {
@@ -135,8 +157,8 @@
                     padding: 12px;
                     border-radius: 8px;
                     cursor: pointer;
-                    background-color: #444;
-                    color: #fff;
+                    background-color: $button-bg-color;
+                    color: $text-color;
                     font-family: 'Arial', sans-serif;
                     font-size: 16px;
                     font-weight: bold;
@@ -145,7 +167,7 @@
                     margin-top: 12px;
 
                     &:hover {
-                        background-color: #555;
+                        background-color: $button-hover-bg-color;
                     }
 
                     &:disabled {
@@ -170,11 +192,11 @@
                 }
 
                 &::-webkit-scrollbar-thumb {
-                    background-color: #444;
+                    background-color: $select-bg;
                     border-radius: 8px;
 
                     &:hover {
-                        background-color: #3d3d3d;
+                        background-color: $select-bg-hover;
                         cursor: pointer;
                     }
                 }
@@ -186,15 +208,15 @@
                     width: 100%;
                     padding: 6px 12px;
                     border-radius: 8px;
-                    background-color: #444;
-                    color: #fff;
+                    background-color: $select-bg;
+                    color: $text-color;
                     font-family: 'Arial', sans-serif;
                     font-size: 16px;
                     list-style: none;
                     transition: background-color .3s;
 
                     &:hover {
-                        background-color: #555;
+                        background-color: $select-bg-hover;
                     }
 
                     &.hidden {
@@ -209,15 +231,15 @@
                 padding: 8px 12px;
                 border-radius: 8px;
                 cursor: pointer;
-                background-color: #444;
-                color: #fff;
+                background-color: $button-bg-color;
+                color: $text-color;
                 font-family: 'Arial', sans-serif;
                 font-size: 11px;
                 transition: background-color .3s;
                 margin-top: 12px;
 
                 &:hover {
-                    background-color: #555;
+                    background-color: $button-hover-bg-color;
                 }
             }
         }
@@ -246,7 +268,7 @@
         align-items: center;
         gap: 20px;
         padding: 24px;
-        background-color: #333;
+        background-color: $bg-color;
         border-radius: 8px;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
         z-index: 100;
@@ -257,8 +279,8 @@
             border: none;
             border-radius: 8px;
             padding: 8px 12px;
-            background-color: #444;
-            color: #fff;
+            background-color: $input-bg;
+            color: $text-color;
             outline: none;
         }
 
@@ -266,8 +288,8 @@
             padding: 12px;
             border-radius: 8px;
             cursor: pointer;
-            background-color: #444;
-            color: #fff;
+            background-color: $button-bg-color;
+            color: $text-color;
             font-family: 'Arial', sans-serif;
             font-size: 16px;
             font-weight: bold;

@@ -18,6 +18,7 @@ const Main = () => {
         groupe: groupes.DEBUT
     });
     const [showPrefList, setShowPrefList] = useState(false);
+    // const [modeSombre, setModeSombre] = useState(true);
 
     const refInputNombre = useRef(null);
 
@@ -80,6 +81,9 @@ const Main = () => {
         }
     }, [selected])
     
+    // useEffect(() => {
+    //     document.documentElement.setAttribute('data-theme', modeSombre ? 'dark' : 'light');
+    // }, [modeSombre])
 
     const handlePref = (classe) => {}
 
@@ -205,9 +209,14 @@ const Main = () => {
                     </div>
                 </div>
 
-                <button onClick={()=>{setShowPrefList(!showPrefList)}}>
-                    liste de préférences
-                </button>
+                <div>
+                    <button onClick={()=>{setShowPrefList(!showPrefList)}}>
+                        liste de préférences
+                    </button>
+                    {/* <button onClick={()=>{setModeSombre(!modeSombre)}}>
+                        mode
+                    </button> */}
+                </div>
             </header>
 
             <main>

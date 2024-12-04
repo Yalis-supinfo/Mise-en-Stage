@@ -1,3 +1,23 @@
+:root {
+    --bg-color: $bg-color;
+    --text-color: $text-color;
+    --input-checked-bg-color: $input-checked-bg-color;
+    --button-bg-color: $button-bg-color;
+    --button-hover-bg-color: $button-hover-bg-color;
+    --input-bg: $input-bg;
+    --select-bg: $select-bg;
+    --select-bg-hover: $select-bg-hover;
+}
+$bg-color: #333;
+$text-color: #fff;
+$input-checked-bg-color: #444;
+$button-bg-color: #444;
+$button-hover-bg-color: #555;
+$input-bg: #444;
+$select-bg: #444;
+$select-bg-hover: #3d3d3d;
+
+
 .classe {
     vertical-align: middle;
     position: relative;
@@ -11,11 +31,12 @@
         height: 50px;
         text-align: center;
         vertical-align: middle;
-        color: rgba($color: #fff, $alpha: .5);
+        opacity: .5;
+        color: $text-color;
     }
 
     .row {
-        background: #444;
+        background: $select-bg;
         vertical-align: middle;
 
         &:nth-child(2) {
@@ -40,6 +61,6 @@
 }
 
 .odd {
-    background: #333;
+    background: $bg-color;
     height: 10px;
 }
