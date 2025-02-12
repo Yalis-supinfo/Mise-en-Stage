@@ -211,7 +211,7 @@ const Main = () => {
 
                 <div>
                     <button onClick={()=>{setShowPrefList(!showPrefList)}}>
-                        liste de préférences
+                        liste de préférences 
                     </button>
                     {/* <button onClick={()=>{setModeSombre(!modeSombre)}}>
                         mode
